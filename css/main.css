@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/img/Landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+}      
+@media screen and (max-width: 900px){
+    body{
+        background-image: url(../assets/img/dawn.png);
+        background-repeat: no-repeat;
+        }
+    }
+@media screen and (max-width: 600px){
+    body{
+        background-image: url(../assets/img/maxresdefault.jpg);
+        background-repeat: no-repeat;
+        }
+    }
+picture{
+    justify-content: center;
+    align-items: flex-end;
+}
