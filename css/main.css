@@ -3,24 +3,24 @@
     padding: 0;
 }
 body{
-    background-image: url(../assets/img/Landscape.jpg);
+    background-image: url(../assets/img/maxresdefault.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 100vh;
 }      
-@media screen and (max-width: 900px){
+@media screen and (min-width: 1000px){
     body{
-        background-image: url(../assets/img/dawn.png);
+        background-image: url(../assets/img/Landscape.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         }
     }
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px) and (max-width: 1000px){
     body{
-        background-image: url(../assets/img/maxresdefault.jpg);
+        background-image: url(../assets/img/dawn.png);        
         background-repeat: no-repeat;
         background-size: cover;
         }
